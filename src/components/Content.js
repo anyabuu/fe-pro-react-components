@@ -15,7 +15,7 @@ const Content = function (props) {
                         {
                             props.items.map((article) => {
                                 return (
-                                    <Article key={article}>
+                                    <Article key={article.title}>
                                         <h2>{article.title}</h2>
                                         <p>{article.text}</p>
                                     </Article>

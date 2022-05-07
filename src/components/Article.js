@@ -10,8 +10,9 @@ function Article(props) {
     );
 }
 
+
 Article.propTypes = {
-    children: PropTypes.string.isRequired,
+    children: PropTypes.array.isRequired,
 }
 
 export default Article;
